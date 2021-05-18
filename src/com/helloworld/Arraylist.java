@@ -47,6 +47,5 @@ public class Arraylist {
 		System.out.println(arrayList);
 	}
 	
-	
 
 }
