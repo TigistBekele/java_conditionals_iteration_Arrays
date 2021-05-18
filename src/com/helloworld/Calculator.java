@@ -23,16 +23,14 @@ public class Calculator {
 
 		System.out.println(sub);
 
-	
-
 		division(10.5d, 2.5d);
 		Flowcharts(5, 7, true);
 		Flowcharts(5, 7, false);
-	
+
 		Result.displayResults();
-        Result.displayExamOverall();
-        Result.displayPassMark();
-        Result.displayOverallPassMark();
+		Result.displayExamOverall();
+		Result.displayPassMark();
+		Result.displayOverallPassMark();
 	}
 
 	public static int add(int num1, int num2) {
@@ -53,23 +51,21 @@ public class Calculator {
 	public static void division(double a, double b) {
 
 		if (a < b) {
-		System.out.println(a / b);
-		}
-		else { 
+			System.out.println(a / b);
+		} else {
 			System.out.println("The division cannot be performed.");
-			}
-	
+		}
+
 	}
-	
-	
-	public static void Flowcharts(int numa, int numb,boolean booli) {
-		
+
+	public static void Flowcharts(int numa, int numb, boolean booli) {
+
 		if (booli == true) {
 			System.out.println(numa + numb);
-		}else {
+		} else {
 			System.out.println(numa * numb);
 		}
-		
+
 	}
 
 }
